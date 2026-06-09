@@ -168,6 +168,8 @@ Walk back up the stack and notice *where* every wall stood. Registry IDN tables:
 
 That gap isn't new, but the institutional signal got louder: ICANN [wound down the Universal Acceptance Steering Group in 2025](https://uasg.tech/) and folded the work under a President's Committee. Read it however you like; the structural fact is unchanged. You have a body that can write the supply side into a contract, and a demand side — every framework author, form validator, mail vendor, and cloud product on earth — that answers to no contract at all. UA isn't stalled because the standards are missing. They shipped years ago. It's stalled because acceptance is a verb performed by ten thousand parties who were never promised anything and owe nobody.
 
+<div class="terminal-card p-3 my-4"><strong class="h-mono">AN ON-BRAND POSTSCRIPT</strong><br><br>I posted this writeup on Bluesky and the ASCII URL <code>darknetian.com</code> linkified — the IDN siblings <code>даркнетиан.com</code> / <code>暗网人.com</code> / <code>ހނދ.com</code> rendered as plain text. The same gap, one stack up. Two community PRs are already in flight: <a href="https://github.com/bluesky-social/atproto/pull/4156">bluesky-social/atproto#4156</a> rewrites the rich-text URL regex against the WHATWG URL spec so non-ASCII URIs validate, and <a href="https://github.com/bluesky-social/social-app/pull/7308">bluesky-social/social-app#7308</a> teaches the client to render IDN handles in their Unicode form with the right sanitization rails. Neither merged yet at time of writing. This is exactly the shape the post is about — protocol fine, implementations catching up one PR at a time, no contract that compels.</div>
+
 <br>
 
 ## Backing the Contact Page — the Names, in a TXT Record
